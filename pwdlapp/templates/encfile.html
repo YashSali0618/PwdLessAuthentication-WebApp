@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+{% extends "layout.html" %}
+{% block content %}
+    <h1>File Encryption Page</h1>
+    <br>
+    <section>
+        <div class="content-section">
+        <div class="third_section">
+            <div class="file_input_form">
+                <form method= "POST" action = "" enctype="multipart/form-data">
+                    <div class = "form_title">Encrypt your Files here!</div><br>
+                    <div class = "file_input"><input type="file" name = "file"></div>
+                    <br>
+                    <div class = "submit_button" ><input type="submit" name="submit_form"></div>
+                </form>
+            </div>
+        </div>
+        </div>
+    </section>
+{% endblock content %}

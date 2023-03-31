@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+{% extends "layout.html" %}
+{% block content %}
+    <h1>File Decryption Page</h1>
+    <br>
+    <section>
+        <div class="content-section">
+        <div class="third_section">
+            <div class="file_input_form">
+                <form method= "POST" action = "" enctype="multipart/form-data">
+                    <div class = "form_title">Enter your UID here to decrypt and download your files!</div><br>
+                    <div class = "uid_input"><input type="text" name = "uid"></div>
+                    <br>
+                    <div class = "submit_button"><input type="submit" name="submit_form"></div>
+                </form>
+            </div>
+        </div>
+        </div>
+    </section>
+{% endblock content %}
